@@ -253,7 +253,7 @@ export default function App() {
             {/* Coverage Map / Delivery Area Container */}
             <div className="lg:col-span-6 rounded-3xl p-6 sm:p-8 border border-stone-850/80 bg-stone-900/35 shadow-xl flex flex-col justify-center backdrop-blur-sm">
               <h3 className="font-display font-bold text-xl text-white mb-2">Zona de Delivery</h3>
-              <p className="text-xs text-stone-400 mb-6 leading-relaxed">Realizamos repartos en Ancón y zonas aledañas.</p>
+              <p className="text-xs text-stone-400 mb-6 leading-relaxed">Realizamos repartos en Ancón.</p>
 
               {/* Interactive Google Maps Embed */}
               <div className="relative h-48 w-full rounded-2xl border border-stone-850/50 overflow-hidden shadow-inner bg-stone-950/40">
