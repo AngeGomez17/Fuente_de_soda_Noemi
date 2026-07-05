@@ -232,7 +232,7 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="font-bold text-white">Horario de Atención</h4>
-                    <p className="text-sm text-stone-400">Lunes a Domingo: 5:00 PM – 11:30 PM</p>
+                    <p className="text-sm text-stone-400">Lunes a Domingo: 6:00 PM – 12:00 AM</p>
                   </div>
                 </div>
 
