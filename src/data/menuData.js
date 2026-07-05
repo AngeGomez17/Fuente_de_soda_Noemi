@@ -129,7 +129,7 @@ export const menuData = [
     nombre: "Jugo de Fresa",
     precio: 10.00,
     descripcion: "Refrescante jugo natural elaborado con fresas seleccionadas licuadas al momento.",
-    imagen: "https://images.unsplash.com/photo-1572588588538-9e85bc92dd13?auto=format&fit=crop&w=600&q=80",
+    imagen: "/jugos/fresa.png",
     categoria: "jugos",
     popular: false
   },
@@ -138,7 +138,7 @@ export const menuData = [
     nombre: "Jugo de Fresa con Leche",
     precio: 12.00,
     descripcion: "Clásica y cremosa combinación de fresas frescas con leche evaporada de primera calidad.",
-    imagen: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=600&q=80",
+    imagen: "/jugos/fresa_con_leche.png",
     categoria: "jugos",
     popular: true
   },
@@ -147,7 +147,7 @@ export const menuData = [
     nombre: "Jugo de Piña",
     precio: 9.00,
     descripcion: "Jugo refrescante de piña dorada y dulce, 100% natural y lleno de energía.",
-    imagen: "https://images.unsplash.com/photo-1589733901241-5e514f273b4e?auto=format&fit=crop&w=600&q=80",
+    imagen: "/jugos/Piña.png",
     categoria: "jugos",
     popular: false
   },
@@ -156,7 +156,7 @@ export const menuData = [
     nombre: "Jugo de Papaya",
     precio: 9.00,
     descripcion: "Nutritivo y digestivo jugo natural de papaya madura seleccionada.",
-    imagen: "https://images.unsplash.com/photo-1628163134177-a14196a4312a?auto=format&fit=crop&w=600&q=80",
+    imagen: "/jugos/Papaya.png",
     categoria: "jugos",
     popular: false
   },
@@ -165,7 +165,7 @@ export const menuData = [
     nombre: "Jugo Surtido",
     precio: 10.00,
     descripcion: "La mezcla perfecta de frutas de la estación (papaya, piña, plátano, fresa) licuadas juntas con el toque de la casa.",
-    imagen: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80",
+    imagen: "/jugos/jugo-surtido.png",
     categoria: "jugos",
     popular: true
   }
