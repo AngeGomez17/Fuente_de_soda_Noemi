@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen text-stone-100 selection:bg-brand-orange selection:text-white antialiased flex flex-col font-sans relative bg-stone-950/20">
-      
+
       {/* Background Video with dynamic blur & zoom on scroll */}
       <div className="fixed inset-0 -z-50 bg-stone-950 overflow-hidden">
         <video
@@ -55,7 +55,7 @@ export default function App() {
             {/* Logo */}
             <div className="flex items-center gap-2">
               <span className="text-2xl font-black tracking-tight text-white font-display flex items-center gap-1.5">
-                <span className="text-brand-orange">Noemi</span>
+                <span className="text-brand-orange">Mimi</span>
                 <span className="text-[10px] bg-brand-red text-white font-black rounded-full px-2.5 py-0.5 uppercase tracking-wider">
                   Soda
                 </span>
@@ -96,9 +96,9 @@ export default function App() {
             pasión que se <span className="text-brand-red">comparte</span>.
           </h1>
           <p className="text-stone-350 text-base sm:text-xl max-w-2xl mb-10 leading-relaxed">
-            Disfruta de nuestro inigualable pollo broaster extra crujiente, hamburguesas jugosas a la parrilla y las salchipapas más contundentes de la ciudad. Hecho con ingredientes premium y con el cariño de siempre.
+            Disfruta de nuestro inigualable pollo broaster extra crujiente, hamburguesas jugosas y las salchipapas más contundentes de Ancón. Hechos con el cariño de siempre.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
             <a
               href="#menu"
@@ -113,7 +113,7 @@ export default function App() {
               className="flex justify-center items-center gap-2 rounded-2xl bg-stone-900/60 hover:bg-stone-900/80 border border-stone-850 text-white px-10 py-4.5 font-bold shadow-sm active:scale-98 backdrop-blur-sm cursor-pointer text-base"
             >
               <svg className="h-5 w-5 fill-emerald-500" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 1.966 14.122 1.012 12.01 1.012c-5.437 0-9.863 4.371-9.867 9.801 0 1.708.452 3.376 1.309 4.856l-.993 3.629 3.69-.965zm10.748-5.382c-.313-.156-1.854-.915-2.137-1.018-.282-.103-.489-.156-.693.156-.204.311-.79.99-.968 1.196-.178.206-.356.233-.67.078-.313-.156-1.32-.486-2.515-1.553-.93-.829-1.558-1.854-1.74-2.165-.183-.311-.02-.48.136-.634.142-.14.313-.363.47-.543.156-.181.209-.311.313-.518.105-.207.052-.389-.026-.543-.078-.156-.693-1.67-.95-2.285-.25-.605-.503-.522-.693-.532-.18-.01-.385-.011-.591-.011-.206 0-.543.078-.827.389-.283.311-1.082 1.058-1.082 2.58 0 1.522 1.102 2.99 1.256 3.2 0 .202 2.169 3.312 5.253 4.641.734.316 1.307.505 1.753.647.737.234 1.407.201 1.937.122.59-.088 1.854-.757 2.115-1.45.26-.693.26-1.285.183-1.402-.078-.117-.282-.189-.597-.346z"/>
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.59 1.966 14.122 1.012 12.01 1.012c-5.437 0-9.863 4.371-9.867 9.801 0 1.708.452 3.376 1.309 4.856l-.993 3.629 3.69-.965zm10.748-5.382c-.313-.156-1.854-.915-2.137-1.018-.282-.103-.489-.156-.693.156-.204.311-.79.99-.968 1.196-.178.206-.356.233-.67.078-.313-.156-1.32-.486-2.515-1.553-.93-.829-1.558-1.854-1.74-2.165-.183-.311-.02-.48.136-.634.142-.14.313-.363.47-.543.156-.181.209-.311.313-.518.105-.207.052-.389-.026-.543-.078-.156-.693-1.67-.95-2.285-.25-.605-.503-.522-.693-.532-.18-.01-.385-.011-.591-.011-.206 0-.543.078-.827.389-.283.311-1.082 1.058-1.082 2.58 0 1.522 1.102 2.99 1.256 3.2 0 .202 2.169 3.312 5.253 4.641.734.316 1.307.505 1.753.647.737.234 1.407.201 1.937.122.59-.088 1.854-.757 2.115-1.45.26-.693.26-1.285.183-1.402-.078-.117-.282-.189-.597-.346z" />
               </svg>
               Hacer una Consulta
             </a>
@@ -125,7 +125,7 @@ export default function App() {
       <section className="bg-stone-950/80 border-y border-stone-900/60 py-16 backdrop-blur-md">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            
+
             <div className="flex flex-col items-center p-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-950/60 text-brand-orange border border-orange-900/50 text-2xl mb-4">
                 🍗
@@ -135,7 +135,7 @@ export default function App() {
                 Pollo fresco seleccionado del día, preparado con nuestra sazón secreta y frito al momento.
               </p>
             </div>
-            
+
             <div className="flex flex-col items-center p-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-950/60 text-brand-red border border-red-900/50 text-2xl mb-4">
                 ⚡
@@ -161,7 +161,7 @@ export default function App() {
 
       {/* Menu / Products Section */}
       <section id="menu" className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
-        
+
         {/* Title */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-4">
@@ -178,11 +178,10 @@ export default function App() {
             <button
               key={category.id}
               onClick={() => setActiveCategory(category.id)}
-              className={`rounded-full px-6 py-2.5 text-sm font-bold tracking-wide active:scale-95 transition-all duration-255 cursor-pointer border ${
-                activeCategory === category.id
+              className={`rounded-full px-6 py-2.5 text-sm font-bold tracking-wide active:scale-95 transition-all duration-255 cursor-pointer border ${activeCategory === category.id
                   ? 'bg-brand-orange text-white border-brand-orange shadow-md shadow-orange-500/10'
                   : 'bg-stone-900/60 hover:bg-stone-850/80 text-stone-300 border-stone-800'
-              }`}
+                }`}
             >
               {category.name}
             </button>
@@ -192,9 +191,9 @@ export default function App() {
         {/* Menu Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 min-h-[300px] animate-fade-in">
           {filteredProducts.map(product => (
-            <MenuCard 
-              key={product.id} 
-              product={product} 
+            <MenuCard
+              key={product.id}
+              product={product}
               whatsappNumber={whatsappNumber}
             />
           ))}
@@ -205,7 +204,7 @@ export default function App() {
       <section id="contacto" className="bg-stone-950/90 border-t border-stone-900 py-20 backdrop-blur-md">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Info Area */}
             <div className="lg:col-span-6">
               <h2 className="font-display text-3xl font-black text-white mb-6">
@@ -255,7 +254,7 @@ export default function App() {
             <div className="lg:col-span-6 rounded-3xl p-6 sm:p-8 border border-stone-850/80 bg-stone-900/35 shadow-xl flex flex-col justify-center backdrop-blur-sm">
               <h3 className="font-display font-bold text-xl text-white mb-2">Zona de Delivery</h3>
               <p className="text-xs text-stone-400 mb-6 leading-relaxed">Realizamos repartos en San Borja, Surco, y zonas aledañas.</p>
-              
+
               {/* Graphic Mock map representation */}
               <div className="relative h-48 w-full rounded-2xl bg-stone-950/60 border border-stone-850/50 overflow-hidden flex items-center justify-center">
                 {/* Radial grid representation */}
@@ -296,7 +295,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-stone-950 text-stone-600 text-xs py-8 border-t border-stone-900/60 mt-auto backdrop-blur-md">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© {new Date().getFullYear()} Fuente de Soda Noemi. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Fuente de Soda Mimi. Todos los derechos reservados.</p>
           <p className="flex gap-4">
             <a href="#" className="hover:text-stone-400">Términos</a>
             <a href="#" className="hover:text-stone-400">Privacidad</a>
