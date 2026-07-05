@@ -33,7 +33,7 @@ export const menuData = [
     id: 4,
     nombre: "Hamburguesa Clásica",
     precio: 5.00,
-    descripcion: "Carne artesanal jugosa, lechuga fresca, rodajas de tomate, papas al hilo crocantes y nuestras deliciosas cremas.",
+    descripcion: "Carne jugosa con papas fritas o al hilo (al gusto), con ensalada si desea y cremas caseras.",
     imagen: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
     categoria: "hamburguesas",
     popular: false
@@ -42,7 +42,7 @@ export const menuData = [
     id: 5,
     nombre: "Hamburguesa Royal",
     precio: 8.00,
-    descripcion: "Nuestra clásica hamburguesa potenciada con queso cheddar fundido y un huevo frito de yema perfecta.",
+    descripcion: "Nuestra clásica hamburguesa potenciada con jamón, queso cheddar fundido y huevo frito de yema perfecta.",
     imagen: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
     categoria: "hamburguesas",
     popular: true
@@ -51,7 +51,7 @@ export const menuData = [
     id: 6,
     nombre: "Hamburguesa Casera Especial",
     precio: 10.00,
-    descripcion: "Exquisita carne de la casa con doble porción de queso, lechuga, tomate fresco, tocino ahumado y papas al hilo.",
+    descripcion: "Exquisita carne de la casa con doble porción de queso, lechuga, tomate fresco, servida con papas fritas o al hilo (al gusto del cliente) y cremas.",
     imagen: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80",
     categoria: "hamburguesas",
     popular: false
@@ -109,7 +109,7 @@ export const menuData = [
     id: 12,
     nombre: "Salchipollo",
     precio: 12.00,
-    descripcion: "Fusión espectacular de papas fritas crujientes con deliciosos trozos de pollo broaster deshilachado y cremas.",
+    descripcion: "Fusión espectacular de papas fritas crujientes con deliciosos trozos de pollo broaster y cremas.",
     imagen: "https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=600&q=80",
     categoria: "salchipapas",
     popular: true
@@ -118,7 +118,7 @@ export const menuData = [
     id: 13,
     nombre: "Salchi Salvaje",
     precio: 15.00,
-    descripcion: "Nuestra salchipapa gigante potenciada con chorizo parrillero ahumado, huevo frito, queso fundido y ensalada.",
+    descripcion: "Salchipapa gigante con chorizo parrillero, hot dog, huevo frito, plátano frito y jugosos trozos de pollo broaster.",
     imagen: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=600&q=80",
     categoria: "salchipapas",
     popular: false
