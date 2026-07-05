@@ -12,7 +12,7 @@ export const menuData = [
   {
     id: 2,
     nombre: "Doble Alita Broaster",
-    precio: 12.00,
+    precio: 14.00,
     descripcion: "Porción doble de alitas broaster crocantes servidas con una generosa porción de papas fritas y todas nuestras cremas caseras.",
     imagen: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80",
     categoria: "promociones",
@@ -79,7 +79,7 @@ export const menuData = [
   {
     id: 9,
     nombre: "Encuentro Broaster",
-    precio: 12.00,
+    precio: 13.00,
     descripcion: "Contundente pieza de encuentro broaster dorada a la perfección, servida con crujientes papas fritas y ensalada.",
     imagen: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=600&q=80",
     categoria: "broaster",
@@ -108,7 +108,7 @@ export const menuData = [
   {
     id: 12,
     nombre: "Salchipollo",
-    precio: 10.00,
+    precio: 12.00,
     descripcion: "Fusión espectacular de papas fritas crujientes con deliciosos trozos de pollo broaster deshilachado y cremas.",
     imagen: "https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=600&q=80",
     categoria: "salchipapas",
@@ -117,7 +117,7 @@ export const menuData = [
   {
     id: 13,
     nombre: "Salchi Salvaje",
-    precio: 13.00,
+    precio: 14.00,
     descripcion: "Nuestra salchipapa gigante potenciada con chorizo parrillero ahumado, huevo frito, queso fundido y ensalada.",
     imagen: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=600&q=80",
     categoria: "salchipapas",
