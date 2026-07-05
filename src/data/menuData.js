@@ -1,62 +1,133 @@
 export const menuData = [
+  // CATEGORY: PROMOCIONES
   {
     id: 1,
-    nombre: "Broaster Clásico",
-    precio: 14.50,
-    descripcion: "Una pieza de pollo crujiente dorada a la perfección, servida con papas fritas crocantes, ensalada fresca y nuestra selección de cremas caseras.",
-    imagen: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80",
-    categoria: "broaster",
+    nombre: "Dúo Hamburguesas Clásicas",
+    precio: 8.00,
+    descripcion: "Llevate dos deliciosas hamburguesas clásicas por solo S/ 8.00. ¡Los primeros 6 pedidos del día se llevan una Coca-Cola o Inca Kola Junior GRATIS!",
+    imagen: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80",
+    categoria: "promociones",
     popular: true
   },
   {
     id: 2,
-    nombre: "Súper Broaster Dúo",
-    precio: 19.90,
-    descripcion: "Dos jugosas y crujientes piezas de pollo broaster, acompañadas de una generosa porción de papas fritas, ensalada premium y cremas al gusto.",
-    imagen: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=600&q=80",
-    categoria: "broaster",
+    nombre: "Doble Alita Broaster",
+    precio: 12.00,
+    descripcion: "Porción doble de alitas broaster crocantes servidas con una generosa porción de papas fritas y todas nuestras cremas caseras.",
+    imagen: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80",
+    categoria: "promociones",
     popular: false
   },
   {
     id: 3,
+    nombre: "Trío Burger (3ra a Mitad de Precio)",
+    precio: 12.50,
+    descripcion: "Compra 2 hamburguesas clásicas y llévate la tercera a mitad de precio (descuento ya aplicado en esta oferta).",
+    imagen: "https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?auto=format&fit=crop&w=600&q=80",
+    categoria: "promociones",
+    popular: true
+  },
+
+  // CATEGORY: HAMBURGUESAS
+  {
+    id: 4,
     nombre: "Hamburguesa Clásica",
-    precio: 12.00,
-    descripcion: "Carne de res seleccionada a la parrilla, lechuga orgánica, rodajas de tomate fresco, papas al hilo crujientes y la combinación perfecta de cremas.",
+    precio: 5.00,
+    descripcion: "Carne artesanal jugosa, lechuga fresca, rodajas de tomate, papas al hilo crocantes y nuestras deliciosas cremas.",
     imagen: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
     categoria: "hamburguesas",
     popular: false
   },
   {
-    id: 4,
-    nombre: "Hamburguesa Extrema Royal",
-    precio: 17.50,
-    descripcion: "Carne artesanal de la casa, queso cheddar fundido, huevo frito de granja, tocino crocante, lechuga, tomate, papas al hilo y cremas especiales.",
+    id: 5,
+    nombre: "Hamburguesa Royal",
+    precio: 8.00,
+    descripcion: "Nuestra clásica hamburguesa potenciada con queso cheddar fundido y un huevo frito de yema perfecta.",
     imagen: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
     categoria: "hamburguesas",
     popular: true
   },
   {
-    id: 5,
+    id: 6,
+    nombre: "Hamburguesa Casera Especial",
+    precio: 10.00,
+    descripcion: "Exquisita carne de la casa con doble porción de queso, lechuga, tomate fresco, tocino ahumado y papas al hilo.",
+    imagen: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80",
+    categoria: "hamburguesas",
+    popular: false
+  },
+
+  // CATEGORY: BROASTER
+  {
+    id: 7,
+    nombre: "Pierna Broaster",
+    precio: 9.00,
+    descripcion: "Jugosa pierna de pollo con un empanizado extra crujiente, papas fritas calientes, ensalada y cremas.",
+    imagen: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80",
+    categoria: "broaster",
+    popular: false
+  },
+  {
+    id: 8,
+    nombre: "Alita Broaster",
+    precio: 9.00,
+    descripcion: "Deliciosas y crocantes alitas de pollo broaster servidas con papas fritas crocantes y ensalada fresca.",
+    imagen: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80",
+    categoria: "broaster",
+    popular: false
+  },
+  {
+    id: 9,
+    nombre: "Encuentro Broaster",
+    precio: 12.00,
+    descripcion: "Contundente pieza de encuentro broaster dorada a la perfección, servida con crujientes papas fritas y ensalada.",
+    imagen: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=600&q=80",
+    categoria: "broaster",
+    popular: true
+  },
+  {
+    id: 10,
+    nombre: "Pecho Broaster",
+    precio: 15.00,
+    descripcion: "La porción más grande y suculenta de pollo broaster con una cubierta super crujiente, servida con papas y cremas.",
+    imagen: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=600&q=80",
+    categoria: "broaster",
+    popular: false
+  },
+
+  // CATEGORY: SALCHIPAPAS
+  {
+    id: 11,
     nombre: "Salchipapa Clásica",
-    precio: 13.00,
-    descripcion: "Cama crujiente de papas fritas seleccionadas acompañadas de rodajas de hot dog Frankfurt de primera calidad, servidas con todas tus cremas favoritas.",
+    precio: 7.00,
+    descripcion: "Papas fritas crujientes con rodajas de hot dog de primera calidad y toda la variedad de cremas caseras.",
     imagen: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80",
     categoria: "salchipapas",
     popular: false
   },
   {
-    id: 6,
-    nombre: "Salchipapa Salvaje",
-    precio: 18.90,
-    descripcion: "Papas fritas crocantes con hot dog, chorizo ahumado a la parrilla, huevo frito, queso derretido por encima y ensalada de col con cremas de la casa.",
-    imagen: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=600&q=80",
+    id: 12,
+    nombre: "Salchipollo",
+    precio: 10.00,
+    descripcion: "Fusión espectacular de papas fritas crujientes con deliciosos trozos de pollo broaster deshilachado y cremas.",
+    imagen: "https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=600&q=80",
     categoria: "salchipapas",
     popular: true
+  },
+  {
+    id: 13,
+    nombre: "Salchi Salvaje",
+    precio: 13.00,
+    descripcion: "Nuestra salchipapa gigante potenciada con chorizo parrillero ahumado, huevo frito, queso fundido y ensalada.",
+    imagen: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=600&q=80",
+    categoria: "salchipapas",
+    popular: false
   }
 ];
 
 export const CATEGORIES = [
   { id: "todos", name: "Todos" },
+  { id: "promociones", name: "Promociones 🔥" },
   { id: "broaster", name: "Pollo Broaster" },
   { id: "hamburguesas", name: "Hamburguesas" },
   { id: "salchipapas", name: "Salchipapas" }
