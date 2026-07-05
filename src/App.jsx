@@ -150,7 +150,7 @@ export default function App() {
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-950/40 text-yellow-500 border border-yellow-900/30 text-2xl mb-4">
                 🧀
               </div>
-              <h3 className="font-display font-bold text-lg mb-2 text-white">Papas al Hilo & Cremas</h3>
+              <h3 className="font-display font-bold text-lg mb-2 text-white">Papas caseras o al Hilo & Cremas</h3>
               <p className="text-sm text-stone-400 max-w-xs leading-relaxed">
                 Papas crocantes de corte artesanal acompañadas de una amplia variedad de salsas caseras.
               </p>
@@ -179,8 +179,8 @@ export default function App() {
               key={category.id}
               onClick={() => setActiveCategory(category.id)}
               className={`rounded-full px-6 py-2.5 text-sm font-bold tracking-wide active:scale-95 transition-all duration-255 cursor-pointer border ${activeCategory === category.id
-                  ? 'bg-brand-orange text-white border-brand-orange shadow-md shadow-orange-500/10'
-                  : 'bg-stone-900/60 hover:bg-stone-850/80 text-stone-300 border-stone-800'
+                ? 'bg-brand-orange text-white border-brand-orange shadow-md shadow-orange-500/10'
+                : 'bg-stone-900/60 hover:bg-stone-850/80 text-stone-300 border-stone-800'
                 }`}
             >
               {category.name}
