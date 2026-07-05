@@ -148,7 +148,7 @@ export default function App() {
 
             <div className="flex flex-col items-center p-4">
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-950/40 text-yellow-500 border border-yellow-900/30 text-2xl mb-4">
-                🧀
+                🍟
               </div>
               <h3 className="font-display font-bold text-lg mb-2 text-white">Papas caseras o al Hilo & Cremas</h3>
               <p className="text-sm text-stone-400 max-w-xs leading-relaxed">

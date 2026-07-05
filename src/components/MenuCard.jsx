@@ -4,8 +4,11 @@ export default function MenuCard({ product, whatsappNumber = "51900100200" }) {
   const { nombre, precio, descripcion, imagen, categoria, popular } = product;
 
   // Generate WhatsApp dynamic URL
-  const message = `Hola, quiero pedir ${nombre}`;
+  const message = categoria === "promociones"
+    ? `Hola, deseo comprar la promoción de ${nombre}`
+    : `Hola, quiero pedir ${nombre}`;
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
 
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-3xl glass-card shadow-[0_8px_30px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(234,88,12,0.12)] hover:border-orange-500/30">
