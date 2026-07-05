@@ -255,17 +255,18 @@ export default function App() {
               <h3 className="font-display font-bold text-xl text-white mb-2">Zona de Delivery</h3>
               <p className="text-xs text-stone-400 mb-6 leading-relaxed">Realizamos repartos en Ancón y zonas aledañas.</p>
 
-              {/* Graphic Mock map representation */}
-              <div className="relative h-48 w-full rounded-2xl bg-stone-950/60 border border-stone-850/50 overflow-hidden flex items-center justify-center">
-                {/* Radial grid representation */}
-                <div className="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px] opacity-[0.03]" />
-                <div className="absolute h-24 w-24 rounded-full bg-brand-orange/15 border border-brand-orange/35 animate-pulse flex items-center justify-center">
-                  <div className="h-4 w-4 rounded-full bg-brand-orange shadow-md shadow-orange-500/50" />
-                </div>
-                <span className="absolute bottom-4 left-4 bg-brand-orange text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full">
-                  Área de Cobertura
-                </span>
-                <span className="text-xs font-semibold text-stone-500 z-10 select-none">Calle D Mz.T - Lt.32, Ancón (Sede Central)</span>
+              {/* Interactive Google Maps Embed */}
+              <div className="relative h-48 w-full rounded-2xl border border-stone-850/50 overflow-hidden shadow-inner bg-stone-950/40">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d690.456925301849!2d-77.17244674636903!3d-11.778129792806599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91067ff552183f99%3A0x9571b49fe41e93b9!2sCalle%20D%20Mz.T%20-%20Lt.32%2C%20Anc%C3%B3n%2015123!5e0!3m2!1ses-419!2spe!4v1783279662026!5m2!1ses-419!2spe"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  className="w-full h-full opacity-80 hover:opacity-100 transition-opacity duration-300"
+                ></iframe>
               </div>
 
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
