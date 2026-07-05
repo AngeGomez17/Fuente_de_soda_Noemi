@@ -117,7 +117,7 @@ export const menuData = [
   {
     id: 13,
     nombre: "Salchi Salvaje",
-    precio: 14.00,
+    precio: 15.00,
     descripcion: "Nuestra salchipapa gigante potenciada con chorizo parrillero ahumado, huevo frito, queso fundido y ensalada.",
     imagen: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=600&q=80",
     categoria: "salchipapas",
