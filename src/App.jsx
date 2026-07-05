@@ -5,7 +5,7 @@ import MenuCard from './components/MenuCard';
 export default function App() {
   const [activeCategory, setActiveCategory] = useState('todos');
   const [scrollBlur, setScrollBlur] = useState(0);
-  const whatsappNumber = "51907791941";
+  const whatsappNumber = "51922474201";
 
   // Scroll handler for video blur & zoom effect
   useEffect(() => {
@@ -243,7 +243,7 @@ export default function App() {
                   <div>
                     <h4 className="font-bold text-white">Llámanos o Escríbenos</h4>
                     <p className="text-sm text-stone-450 font-semibold">
-                      <a href={`tel:+${whatsappNumber}`} className="hover:text-brand-orange text-brand-orange transition-colors">+51 907 791 941</a>
+                      <a href={`tel:+${whatsappNumber}`} className="hover:text-brand-orange text-brand-orange transition-colors">+51 922 474 201</a>
                     </p>
                   </div>
                 </div>
