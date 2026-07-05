@@ -5,7 +5,7 @@ export const menuData = [
     nombre: "Dúo Hamburguesas Clásicas",
     precio: 8.00,
     descripcion: "Llevate dos deliciosas hamburguesas clásicas por solo S/ 8.00. ¡Los primeros 6 pedidos del día se llevan una Coca-Cola o Inca Kola Junior GRATIS!",
-    imagen: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Duo_burger.png",
     categoria: "promociones",
     popular: true
   },
@@ -14,7 +14,7 @@ export const menuData = [
     nombre: "Doble Alita Broaster",
     precio: 14.00,
     descripcion: "Porción doble de alitas broaster crocantes servidas con una generosa porción de papas fritas y todas nuestras cremas caseras.",
-    imagen: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Doble_alita.png",
     categoria: "promociones",
     popular: false
   },
@@ -23,7 +23,7 @@ export const menuData = [
     nombre: "Trío Burger (3ra a Mitad de Precio)",
     precio: 12.50,
     descripcion: "Compra 2 hamburguesas clásicas y llévate la tercera a mitad de precio (descuento ya aplicado en esta oferta).",
-    imagen: "https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Trio_burger.png",
     categoria: "promociones",
     popular: true
   },
@@ -34,7 +34,7 @@ export const menuData = [
     nombre: "Hamburguesa Clásica",
     precio: 5.00,
     descripcion: "Carne jugosa con papas fritas o al hilo (al gusto), con ensalada si desea y cremas caseras.",
-    imagen: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Burger_clasica.png",
     categoria: "hamburguesas",
     popular: false
   },
@@ -43,7 +43,7 @@ export const menuData = [
     nombre: "Hamburguesa Royal",
     precio: 8.00,
     descripcion: "Nuestra clásica hamburguesa potenciada con jamón, queso cheddar fundido y huevo frito de yema perfecta.",
-    imagen: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Royale_burger.png",
     categoria: "hamburguesas",
     popular: true
   },
@@ -52,7 +52,7 @@ export const menuData = [
     nombre: "Hamburguesa Casera Especial",
     precio: 10.00,
     descripcion: "Exquisita carne de la casa con doble porción de queso, lechuga, tomate fresco, servida con papas fritas o al hilo (al gusto del cliente) y cremas.",
-    imagen: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Burger_casera.png",
     categoria: "hamburguesas",
     popular: false
   },
@@ -63,7 +63,7 @@ export const menuData = [
     nombre: "Pierna Broaster",
     precio: 9.00,
     descripcion: "Jugosa pierna de pollo con un empanizado extra crujiente, papas fritas calientes, ensalada y cremas.",
-    imagen: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Pierna_broaster.png",
     categoria: "broaster",
     popular: false
   },
@@ -72,7 +72,7 @@ export const menuData = [
     nombre: "Alita Broaster",
     precio: 9.00,
     descripcion: "Deliciosas y crocantes alitas de pollo broaster servidas con papas fritas crocantes y ensalada fresca.",
-    imagen: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Alita_broaster.png",
     categoria: "broaster",
     popular: false
   },
@@ -81,7 +81,7 @@ export const menuData = [
     nombre: "Encuentro Broaster",
     precio: 13.00,
     descripcion: "Contundente pieza de encuentro broaster dorada a la perfección, servida con crujientes papas fritas y ensalada.",
-    imagen: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Encuentro_broaster.png",
     categoria: "broaster",
     popular: true
   },
@@ -90,7 +90,7 @@ export const menuData = [
     nombre: "Pecho Broaster",
     precio: 15.00,
     descripcion: "La porción más grande y suculenta de pollo broaster con una cubierta super crujiente, servida con papas y cremas.",
-    imagen: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Pecho_broaster.png",
     categoria: "broaster",
     popular: false
   },
@@ -101,7 +101,7 @@ export const menuData = [
     nombre: "Salchipapa Clásica",
     precio: 7.00,
     descripcion: "Papas fritas crujientes con rodajas de hot dog de primera calidad y toda la variedad de cremas caseras.",
-    imagen: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Salchipapa.png",
     categoria: "salchipapas",
     popular: false
   },
@@ -110,7 +110,7 @@ export const menuData = [
     nombre: "Salchipollo",
     precio: 12.00,
     descripcion: "Fusión espectacular de papas fritas crujientes con deliciosos trozos de pollo broaster y cremas.",
-    imagen: "https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Salchipollo.png",
     categoria: "salchipapas",
     popular: true
   },
@@ -119,7 +119,7 @@ export const menuData = [
     nombre: "Salchi Salvaje",
     precio: 15.00,
     descripcion: "Salchipapa gigante con chorizo parrillero, hot dog, huevo frito, plátano frito y jugosos trozos de pollo broaster.",
-    imagen: "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=600&q=80",
+    imagen: "/comida/Salchi_salvaje.png",
     categoria: "salchipapas",
     popular: false
   },
