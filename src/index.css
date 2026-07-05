@@ -2,25 +2,24 @@
 
 @import "tailwindcss";
 
-
 @theme {
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
   
-  --color-brand-orange: #f97316;
-  --color-brand-orange-hover: #ea580c;
-  --color-brand-red: #ef4444;
-  --color-brand-red-hover: #dc2626;
-  --color-brand-cream: #fdfbf7;
+  --color-brand-orange: #ea580c;
+  --color-brand-orange-hover: #f97316;
+  --color-brand-red: #dc2626;
+  --color-brand-red-hover: #ef4444;
+  --color-brand-cream: #09090b; /* Elegant Black */
   
-  --animate-float: float 3s ease-in-out infinite;
-  --animate-slide-up: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-slide-up: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-fade-in: fadeIn 0.4s ease-out forwards;
 }
 
 @keyframes float {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-8px); }
 }
 
 @keyframes slideUp {
@@ -41,7 +40,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--color-brand-cream);
+  background-color: #09090b; /* Pitch black */
   font-family: var(--font-sans);
   -webkit-tap-highlight-color: transparent;
 }
@@ -50,30 +49,37 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  color: #1c1917; /* Stone 900 */
+  color: #e4e4e7; /* Zinc 200 */
 }
 
-/* Glassmorphism utility */
+/* Glassmorphism utility for elegant dark theme */
 .glass-nav {
-  background: rgba(253, 251, 247, 0.8);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(234, 88, 12, 0.1);
+  background: rgba(9, 9, 11, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Custom scrollbar for premium feel */
+.glass-card {
+  background: rgba(20, 20, 23, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Custom scrollbar for dark premium feel */
 ::-webkit-scrollbar {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #fdfbf7;
+  background: #09090b;
 }
 ::-webkit-scrollbar-thumb {
   background: #ea580c;
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #dc2626;
+  background: #f97316;
 }
 
 /* Base styles for interactive elements */

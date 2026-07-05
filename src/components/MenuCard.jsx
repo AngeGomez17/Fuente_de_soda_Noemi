@@ -8,44 +8,44 @@ export default function MenuCard({ product, whatsappNumber = "51900100200" }) {
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-3xl bg-white shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-orange-50/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(234,88,12,0.08)]">
+    <div className="group relative flex flex-col overflow-hidden rounded-3xl glass-card shadow-[0_8px_30px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(234,88,12,0.12)] hover:border-orange-500/30">
       
       {/* Category & Popular Badges */}
       <div className="absolute top-4 left-4 z-10 flex gap-2">
-        <span className="rounded-full bg-stone-900/80 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white backdrop-blur-md">
+        <span className="rounded-full bg-stone-950/90 border border-stone-800 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-stone-200 backdrop-blur-md">
           {categoria}
         </span>
         {popular && (
-          <span className="flex items-center gap-1 rounded-full bg-brand-orange px-3 py-1 text-xs font-bold uppercase tracking-wider text-white shadow-md animate-pulse">
+          <span className="flex items-center gap-1 rounded-full bg-brand-orange px-3 py-1 text-xs font-bold uppercase tracking-wider text-white shadow-md shadow-orange-950/20 animate-pulse">
             🔥 Popular
           </span>
         )}
       </div>
 
       {/* Image Container */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-100">
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-900">
         <img
           src={imagen}
           alt={nombre}
           loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 group-hover:brightness-105"
         />
         {/* Subtle vignette gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-stone-950/60 to-transparent" />
       </div>
 
       {/* Card Content */}
       <div className="flex flex-1 flex-col p-5 sm:p-6">
-        <div className="mb-2 flex items-start justify-between gap-2">
-          <h3 className="font-display text-lg font-bold text-stone-900 leading-tight group-hover:text-brand-orange transition-colors">
+        <div className="mb-2 flex items-start justify-between gap-3">
+          <h3 className="font-display text-lg font-bold text-white leading-tight group-hover:text-brand-orange transition-colors duration-300">
             {nombre}
           </h3>
-          <span className="font-display text-lg font-extrabold text-brand-red whitespace-nowrap">
+          <span className="font-display text-lg font-extrabold text-brand-orange whitespace-nowrap">
             S/ {precio.toFixed(2)}
           </span>
         </div>
 
-        <p className="mb-6 text-sm text-stone-500 leading-relaxed line-clamp-3 flex-1">
+        <p className="mb-6 text-sm text-stone-400 leading-relaxed line-clamp-3 flex-1">
           {descripcion}
         </p>
 
@@ -54,7 +54,7 @@ export default function MenuCard({ product, whatsappNumber = "51900100200" }) {
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 rounded-2xl bg-brand-orange hover:bg-brand-orange-hover text-white py-3.5 px-4 font-bold text-sm tracking-wide shadow-md shadow-orange-500/10 hover:shadow-orange-500/20 active:scale-95 transition-all w-full"
+          className="flex items-center justify-center gap-2 rounded-2xl bg-brand-orange hover:bg-brand-orange-hover text-white py-3.5 px-4 font-bold text-sm tracking-wide shadow-md shadow-orange-500/10 hover:shadow-orange-500/20 active:scale-95 transition-all w-full cursor-pointer"
         >
           {/* SVG WhatsApp Icon */}
           <svg
