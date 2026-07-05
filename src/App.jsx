@@ -222,7 +222,7 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="font-bold text-white">Dirección</h4>
-                    <p className="text-sm text-stone-400">Av. Aviación 1420, San Borja, Lima, Perú</p>
+                    <p className="text-sm text-stone-400">Calle D Mz.T - Lt.32, Ancón 15123</p>
                   </div>
                 </div>
 
@@ -253,7 +253,7 @@ export default function App() {
             {/* Coverage Map / Delivery Area Container */}
             <div className="lg:col-span-6 rounded-3xl p-6 sm:p-8 border border-stone-850/80 bg-stone-900/35 shadow-xl flex flex-col justify-center backdrop-blur-sm">
               <h3 className="font-display font-bold text-xl text-white mb-2">Zona de Delivery</h3>
-              <p className="text-xs text-stone-400 mb-6 leading-relaxed">Realizamos repartos en San Borja, Surco, y zonas aledañas.</p>
+              <p className="text-xs text-stone-400 mb-6 leading-relaxed">Realizamos repartos en Ancón y zonas aledañas.</p>
 
               {/* Graphic Mock map representation */}
               <div className="relative h-48 w-full rounded-2xl bg-stone-950/60 border border-stone-850/50 overflow-hidden flex items-center justify-center">
@@ -265,7 +265,7 @@ export default function App() {
                 <span className="absolute bottom-4 left-4 bg-brand-orange text-white text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full">
                   Área de Cobertura
                 </span>
-                <span className="text-xs font-semibold text-stone-500 z-10 select-none">Av. Aviación 1420 (Sede Central)</span>
+                <span className="text-xs font-semibold text-stone-500 z-10 select-none">Calle D Mz.T - Lt.32, Ancón (Sede Central)</span>
               </div>
 
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
