@@ -54,9 +54,9 @@ export default function App() {
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
             <div className="flex items-center gap-2">
-              <span className="text-2xl font-black tracking-tight text-white font-display flex items-center gap-1.5">
+              <span className="text-xl sm:text-2xl font-black tracking-tight text-white font-display flex items-center gap-1.5">
                 <span className="text-brand-orange">Mimi</span>
-                <span className="text-[10px] bg-brand-red text-white font-black rounded-full px-2.5 py-0.5 uppercase tracking-wider">
+                <span className="text-[10px] bg-brand-red text-white font-black rounded-full px-2 sm:px-2.5 py-0.5 uppercase tracking-wider">
                   Soda
                 </span>
               </span>
@@ -64,10 +64,10 @@ export default function App() {
 
             {/* Delivery Status & Main WhatsApp CTA */}
             <div className="flex items-center gap-4">
-              <span className="flex items-center gap-1.5 text-xs font-semibold text-emerald-400 bg-emerald-950/40 border border-emerald-900/40 rounded-full px-2.5 py-1">
-                <span className="relative flex h-2 w-2">
+              <span className="flex items-center gap-1 text-[10px] sm:text-xs font-semibold text-emerald-400 bg-emerald-950/40 border border-emerald-900/40 rounded-full px-2 sm:px-2.5 py-0.5 sm:py-1">
+                <span className="relative flex h-1.5 w-1.5 sm:h-2 sm:w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                  <span className="relative inline-flex rounded-full h-1.5 w-1.5 sm:h-2 sm:w-2 bg-emerald-500"></span>
                 </span>
                 ⚡ Delivery Activo
               </span>
@@ -173,12 +173,12 @@ export default function App() {
         </div>
 
         {/* Filter Categories Tabs */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
+        <div className="flex overflow-x-auto no-scrollbar justify-start md:justify-center gap-2 mb-12 pb-2 -mx-4 px-4 md:mx-0 md:px-0 scroll-smooth">
           {CATEGORIES.map(category => (
             <button
               key={category.id}
               onClick={() => setActiveCategory(category.id)}
-              className={`rounded-full px-6 py-2.5 text-sm font-bold tracking-wide active:scale-95 transition-all duration-255 cursor-pointer border ${activeCategory === category.id
+              className={`shrink-0 rounded-full px-6 py-2.5 text-sm font-bold tracking-wide active:scale-95 transition-all duration-255 cursor-pointer border ${activeCategory === category.id
                 ? 'bg-brand-orange text-white border-brand-orange shadow-md shadow-orange-500/10'
                 : 'bg-stone-900/60 hover:bg-stone-850/80 text-stone-300 border-stone-800'
                 }`}
